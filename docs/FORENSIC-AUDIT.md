@@ -16,3 +16,7 @@ The provider was built and exercised independently on Linux x86-64 with GCC 13, 
 The original Common 1.19.78 source remains unchanged. Source-manifest hashes describe the initial extraction; subsequent corrections are recorded by Git and this audit. Original copy-comparison results are historical evidence of the extraction, not a claim that corrected code remains behavior-identical to Common.
 
 Relevant authorities: [calendrical](https://reingold.co/calendars.shtml), [convertdate](https://convertdate.readthedocs.io/), [ICU](https://unicode-org.github.io/icu/userguide/datetime/calendar/), [NOAA](https://gml.noaa.gov/grad/solcalc/solareqns.PDF), [USNO](https://aa.usno.navy.mil/faq/GAST), [NAOJ](https://eco.mtk.nao.ac.jp/koyomi/wiki/C7F6CCC02FCCEBCCC0A4C8C6FCCAEB.html), [BWC](https://bahai-library.com/pdf/uhj/uhj_bahai_dates_172-221.pdf), [HKO](https://www.hko.gov.hk/en/gts/time/conversion.htm), [KASI](https://astro.kasi.re.kr/life/pageView/5?search_year=2017&search_month=02&search_dp=1&search_check=G), [HijriDate](https://hijridate.readthedocs.io/en/stable/background.html), [Persian](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/persncal.cpp).
+
+## Reference-policy follow-up
+
+The chronology remains unchanged. See [reference-policy investigation](REFERENCE-POLICY.md) for the matching current-service-harvest dataset, unavailable live primary verification and remaining HijriDate publication/revision conflict.

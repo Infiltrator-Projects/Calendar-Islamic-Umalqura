@@ -37,3 +37,7 @@ See [source provenance and build details](SOURCE.md), [source manifest](SOURCE-M
 ## Independent forensic audit
 
 See [audit findings](docs/FORENSIC-AUDIT.md) for corrections, numerical-model limits and unresolved authority disagreements. A successful build is not a historical-accuracy certificate.
+
+## Reference-policy follow-up
+
+The chronology remains unchanged. See [reference-policy investigation](docs/REFERENCE-POLICY.md) for the matching current-service-harvest dataset, unavailable live primary verification and remaining HijriDate publication/revision conflict.

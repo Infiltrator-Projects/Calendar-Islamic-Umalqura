@@ -40,3 +40,7 @@ The model and boundary above are documented from the current resource build map,
 ## Source copy status
 
 The model-specific implementation and required helpers are now copied into this repository. Its behaviour was compared with the original Common 1.19.78 provider; this adds copy-regression evidence, not a new independent historical audit. See [source provenance](../SOURCE.md) and [validation results](../VALIDATION-RESULTS.json). The original Common implementation remains in place.
+
+## Reference-policy follow-up
+
+The chronology remains unchanged. See [reference-policy investigation](REFERENCE-POLICY.md) for the matching current-service-harvest dataset, unavailable live primary verification and remaining HijriDate publication/revision conflict.
