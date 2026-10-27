@@ -1,0 +1,940 @@
+[
+  {
+    "op": "fields",
+    "args": [
+      2408761
+    ],
+    "expected": [
+      false,
+      12345,
+      12,
+      23,
+      4,
+      true
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2408761
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408761,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408761,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408761,
+      0
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408761,
+      1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408761,
+      25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408761,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408761,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408761,
+      0
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408761,
+      1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408761,
+      25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "fields",
+    "args": [
+      2408762
+    ],
+    "expected": [
+      true,
+      1300,
+      1,
+      1,
+      0,
+      false
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2408762
+    ],
+    "expected": [
+      true,
+      2408762
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408762,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408762,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408762,
+      0
+    ],
+    "expected": [
+      true,
+      2408762
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408762,
+      1
+    ],
+    "expected": [
+      true,
+      2408792
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2408762,
+      25
+    ],
+    "expected": [
+      true,
+      2409500
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408762,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408762,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408762,
+      0
+    ],
+    "expected": [
+      true,
+      2408762
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408762,
+      1
+    ],
+    "expected": [
+      true,
+      2409116
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2408762,
+      25
+    ],
+    "expected": [
+      true,
+      2417621
+    ]
+  },
+  {
+    "op": "fields",
+    "args": [
+      2440588
+    ],
+    "expected": [
+      true,
+      1389,
+      10,
+      22,
+      0,
+      false
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2440588
+    ],
+    "expected": [
+      true,
+      2440567
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2440588,
+      -25
+    ],
+    "expected": [
+      true,
+      2439849
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2440588,
+      -1
+    ],
+    "expected": [
+      true,
+      2440559
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2440588,
+      0
+    ],
+    "expected": [
+      true,
+      2440588
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2440588,
+      1
+    ],
+    "expected": [
+      true,
+      2440617
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2440588,
+      25
+    ],
+    "expected": [
+      true,
+      2441326
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2440588,
+      -25
+    ],
+    "expected": [
+      true,
+      2431728
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2440588,
+      -1
+    ],
+    "expected": [
+      true,
+      2440233
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2440588,
+      0
+    ],
+    "expected": [
+      true,
+      2440588
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2440588,
+      1
+    ],
+    "expected": [
+      true,
+      2440942
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2440588,
+      25
+    ],
+    "expected": [
+      true,
+      2449447
+    ]
+  },
+  {
+    "op": "fields",
+    "args": [
+      2451545
+    ],
+    "expected": [
+      true,
+      1420,
+      9,
+      24,
+      0,
+      false
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2451545
+    ],
+    "expected": [
+      true,
+      2451522
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2451545,
+      -25
+    ],
+    "expected": [
+      true,
+      2450807
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2451545,
+      -1
+    ],
+    "expected": [
+      true,
+      2451515
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2451545,
+      0
+    ],
+    "expected": [
+      true,
+      2451545
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2451545,
+      1
+    ],
+    "expected": [
+      true,
+      2451575
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2451545,
+      25
+    ],
+    "expected": [
+      true,
+      2452283
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2451545,
+      -25
+    ],
+    "expected": [
+      true,
+      2442686
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2451545,
+      -1
+    ],
+    "expected": [
+      true,
+      2451191
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2451545,
+      0
+    ],
+    "expected": [
+      true,
+      2451545
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2451545,
+      1
+    ],
+    "expected": [
+      true,
+      2451899
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2451545,
+      25
+    ],
+    "expected": [
+      true,
+      2460404
+    ]
+  },
+  {
+    "op": "fields",
+    "args": [
+      2460311
+    ],
+    "expected": [
+      true,
+      1445,
+      6,
+      19,
+      0,
+      false
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2460311
+    ],
+    "expected": [
+      true,
+      2460293
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2460311,
+      -25
+    ],
+    "expected": [
+      true,
+      2459572
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2460311,
+      -1
+    ],
+    "expected": [
+      true,
+      2460282
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2460311,
+      0
+    ],
+    "expected": [
+      true,
+      2460311
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2460311,
+      1
+    ],
+    "expected": [
+      true,
+      2460341
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2460311,
+      25
+    ],
+    "expected": [
+      true,
+      2461049
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2460311,
+      -25
+    ],
+    "expected": [
+      true,
+      2451451
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2460311,
+      -1
+    ],
+    "expected": [
+      true,
+      2459957
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2460311,
+      0
+    ],
+    "expected": [
+      true,
+      2460311
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2460311,
+      1
+    ],
+    "expected": [
+      true,
+      2460665
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2460311,
+      25
+    ],
+    "expected": [
+      true,
+      2469170
+    ]
+  },
+  {
+    "op": "fields",
+    "args": [
+      2518000
+    ],
+    "expected": [
+      false,
+      12345,
+      12,
+      23,
+      4,
+      true
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2518000
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518000,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518000,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518000,
+      0
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518000,
+      1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518000,
+      25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518000,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518000,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518000,
+      0
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518000,
+      1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518000,
+      25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "fields",
+    "args": [
+      2518001
+    ],
+    "expected": [
+      false,
+      12345,
+      12,
+      23,
+      4,
+      true
+    ]
+  },
+  {
+    "op": "start",
+    "args": [
+      2518001
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518001,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518001,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518001,
+      0
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518001,
+      1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "periods",
+    "args": [
+      2518001,
+      25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518001,
+      -25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518001,
+      -1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518001,
+      0
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518001,
+      1
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  },
+  {
+    "op": "years",
+    "args": [
+      2518001,
+      25
+    ],
+    "expected": [
+      false,
+      1234567890
+    ]
+  }
+]
