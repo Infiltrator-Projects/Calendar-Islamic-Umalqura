@@ -1,0 +1,50 @@
+[
+  {
+    "op": "fields",
+    "args": [
+      2423999
+    ],
+    "expected": [
+      true,
+      1343,
+      1,
+      1,
+      0,
+      false
+    ],
+    "source": "https://hijridate.readthedocs.io/en/stable/background.html",
+    "date": "1924-08-01"
+  },
+  {
+    "op": "fields",
+    "args": [
+      2444240
+    ],
+    "expected": [
+      true,
+      1400,
+      2,
+      13,
+      0,
+      false
+    ],
+    "source": "https://hijridate.readthedocs.io/en/stable/background.html",
+    "date": "1980-01-01"
+  },
+  {
+    "op": "fields",
+    "args": [
+      2469919
+    ],
+    "expected": [
+      true,
+      1472,
+      8,
+      1,
+      0,
+      false
+    ],
+    "source": "https://hijridate.readthedocs.io/en/stable/background.html",
+    "date": "2050-04-22"
+  }
+]
