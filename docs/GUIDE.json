@@ -1,0 +1,78 @@
+{
+  "title": "Islamic Umm al-Qura Calendar",
+  "intro": "A tabulated Islamic lunar calendar associated with Saudi civil datekeeping. Here the implementation uses a maintained table of month starts for a bounded year range.",
+  "summary": "Twelve lunar months; month starts are looked up in a predefined table, rather than extrapolated beyond it.",
+  "origin": "The Umm al-Qura calendar is used in Saudi Arabian civil contexts. Its conventions are distinct from calculations that predict local crescent sightings.",
+  "ring_label": "12",
+  "ring_caption": "MONTHS",
+  "diagram_title": "THE TABLE-BASED ISLAMIC YEAR",
+  "structure": "Dates use twelve Hijri months. Each month's length follows the stored table, typically 29 or 30 days.",
+  "diagram_caption": "12 MONTHS / TABLE LOOKUP, NOT GUESSWORK",
+  "sections": [
+    {
+      "name": "Muharram",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Safar",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Rabi I",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Rabi II",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Jumada I",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Jumada II",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Rajab",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Shaban",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Ramadan",
+      "days": "29/30",
+      "special": true
+    },
+    {
+      "name": "Shawwal",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Dhu al-Qadah",
+      "days": "29/30",
+      "special": false
+    },
+    {
+      "name": "Dhu al-Hijjah",
+      "days": "29/30",
+      "special": false
+    }
+  ],
+  "pattern_note": "This provider supports the maintained AH 1300–1600 table only. Other years must produce an unsupported-date result, not an invented extension.",
+  "history": "Published Islamic month tables enable consistent scheduling and recordkeeping. Different Islamic authorities and local lunar sightings do not always select the same date.",
+  "example": "A date in Ramadan AH 1447 can be interpreted using the stored table. Trying to display AH 1700 must be rejected instead of calculating an unsupported month.",
+  "limits": "Historical sections of the table are retrospective. This provider does not establish official religious observance for all communities and does not cover years outside AH 1300–1600.",
+  "source": "https://github.com/Infiltrator-Projects/Calendar-Islamic-Umalqura"
+}
