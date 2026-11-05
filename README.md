@@ -52,4 +52,4 @@ Each package owns only this provider and its passive documentation. Its `Replace
 
 ## Illustrated user guide
 
-The provider installs only `Islamic Umm al-Qura Calendar.so` and the illustrated `Islamic Umm al-Qura Calendar.pdf`. Engineering documentation remains in GitHub; PGO, native compiler and source hash evidence is kept in Debian control metadata.
+The provider installs only `Islamic Umm al-Qura Calendar.so` and the illustrated `Calendar-Islamic-Umalqura.pdf`. Engineering documentation remains in GitHub; PGO, native compiler and source hash evidence is kept in Debian control metadata.

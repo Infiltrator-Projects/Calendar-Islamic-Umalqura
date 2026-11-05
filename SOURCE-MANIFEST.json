@@ -358,7 +358,7 @@
       "selected_definitions": []
     }
   ],
-  "copy_method": "The original Common extraction remains historical provenance; active builds use the real Common 1.19.80 library.",
+  "copy_method": "The original Common extraction remains historical provenance; active builds use the real Common 1.19.81 library.",
   "verification": {
     "repository": "Calendar-Islamic-Umalqura",
     "compared_observations": 883,
@@ -373,8 +373,8 @@
   "common_dependency": {
     "type": "git-submodule",
     "path": "common",
-    "revision": "dc4aac326964ca4400b6e21851d16eea674040c8",
-    "version": "1.19.80",
+    "revision": "a99ef676b0e43c7e645c81756e3fd38be0a54406",
+    "version": "1.19.81",
     "linkage": "static"
   }
 }
