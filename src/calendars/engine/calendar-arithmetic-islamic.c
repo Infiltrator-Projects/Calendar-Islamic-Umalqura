@@ -131,8 +131,11 @@ umm_al_qura_to_jdn(gint64 year,
     if (year < UMM_AL_QURA_FIRST_YEAR || year > UMM_AL_QURA_LAST_YEAR ||
         month < 1 || month > 12)
     {
-        return CALENDAR_UNIX_EPOCH_JDN;
+        return G_MAXINT64;
     }
+
+    if (day < 1 || day > umm_al_qura_month_length(year, month))
+        return G_MAXINT64;
 
     result = calendar_i64_add_saturating(
         UMM_AL_QURA_FIRST_JDN,
@@ -232,7 +235,7 @@ calendar_arithmetic_islamic_fields_to_jdn(
         case CALENDAR_CALENDAR_MODE_ISLAMIC_UMM_AL_QURA:
             return umm_al_qura_to_jdn(year, month, day);
         default:
-            return CALENDAR_UNIX_EPOCH_JDN;
+            return G_MAXINT64;
     }
 }
 

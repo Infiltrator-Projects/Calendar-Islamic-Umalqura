@@ -147,7 +147,7 @@ fields_to_jdn(CalendarCalendarMode mode,
         
 
         default:
-            return CALENDAR_UNIX_EPOCH_JDN;
+            return G_MAXINT64;
     }
 }
 
