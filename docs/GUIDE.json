@@ -67,9 +67,11 @@
   "example": "Ramadan AH 1447 can be calculated using the stored month table. AH 1700 is unsupported and must not produce an invented date.",
   "history": "Published month tables support consistent scheduling and recordkeeping. Other Islamic authorities may choose different dates using local sightings or other conventions.",
   "model": "The provider supports AH 1300–1600 inclusive, from the first day of 1300 to the final day of 1600. The data contains retrospective dates; conversion uses maintained month lengths and rejects dates beyond the table without extrapolation.",
-  "limits": "Not a universal religious determination or proof of a historical crescent observation.",
+  "limits": "Not a universal religious determination or proof of a historical crescent observation. The October 2026 authority audit recorded disagreements with independent HijriDate data. A subsequent reference-policy investigation retained the provider chronology after comparison with a matching harvested dataset; live primary verification was unavailable. Passing implementation tests do not establish universal agreement.",
   "sources": [
     "https://github.com/Infiltrator-Projects/Calendar-Islamic-Umalqura",
-    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-Islamic-Umalqura/blob/main/docs/MODEL.md"
+    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-Islamic-Umalqura/blob/main/docs/MODEL.md",
+    "Reference-policy investigation: https://github.com/Infiltrator-Projects/Calendar-Islamic-Umalqura/blob/main/docs/REFERENCE-POLICY.md",
+    "Historical qualification: https://github.com/Infiltrator-Projects/Calendar-Islamic-Umalqura/blob/main/docs/FORENSIC-AUDIT.md"
   ]
 }
